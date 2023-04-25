@@ -7,7 +7,7 @@ In the immediate aftermath of a report released by the Hindenburg group, Adani's
 ## Notebooks
 ### [1_scraping.ipynb](1_scraping.ipynb)
 This is a scraper that collects and downloads all the relavent pdfs from the DPIIT website. It uses BeautifulSoup to find and target quarterly newsletters and the downloads them. 
-### [2_process.ipynb] (2_process.ipynb)
+### [2_process.ipynb](2_process.ipynb)
 This takes the CSVs which have been connverted and collates them into one large dataframe. The final dataframe has the following columns:
 
 | Column | Description |
