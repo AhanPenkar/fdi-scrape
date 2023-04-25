@@ -24,3 +24,7 @@ This takes the CSVs which have been connverted and collates them into one large 
 | Dollars | Amount invested in Dollars |
 | Year | The year the amount was invested | 
 
+There were several challenges associated with making this project, the first was to do with merging different tables across different years as formatting for it evolved, and the second was to reindex and sort the tables so that they would merge with each other. The pdf to csv conversion was done manually. Ideally, this process would have been automated too. 
+
+### [3_stats.ipynb(3_stats.ipynb)
+This has one main function within it ```def searchFor(company)``` which allows users to search for a company in India. It returns all the companies that have invested within in from abroad.
